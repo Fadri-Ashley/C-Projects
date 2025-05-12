@@ -38,5 +38,17 @@ int main(){
         printf("\n%d", newNumbers[i]);
     }
 
+    // Multidimensional Arrays
+
+    int matrix[2][3] = {{1, 5, 8}, {4, 7, 6}};
+    printf("\n%d", matrix[0][2]);
+
+    // Loop Through a 2D Array
+    for (int i = 0; i < 2; i++){
+        for (int j = 0; j < 3; j++){
+            printf("%d\n", matrix[i][j]);
+        }
+    }
+
     return 0;
 }
