@@ -20,8 +20,13 @@ int main(){
 
     // Another Way of Creating Strings
     char greetings2[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
-    printf("%s", greetings2);
+    printf("%s\n", greetings2);
 
+    // Real Life Example
+    char message[] = "Good to see you,";
+    char fname[] = "John";
+
+    printf("%s %s", message, fname);
 
     return 0;
 }
