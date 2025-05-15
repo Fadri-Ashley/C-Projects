@@ -26,7 +26,11 @@ int main(){
     char message[] = "Good to see you,";
     char fname[] = "John";
 
-    printf("%s %s", message, fname);
+    printf("%s %s\n", message, fname);
+
+    // Special Characters
+    char txt[] = "We are the so called \"Jawa\" from the south.";
+    printf("%s", txt);
 
     return 0;
 }
